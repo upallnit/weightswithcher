@@ -1,0 +1,342 @@
+/*
+Your name:Sherrica Coleman
+File Name:finalstyles.css
+Date: 04/23/2023
+*/
+
+/* CSS Reset */
+
+body, header, nav, main, img, footer, h1, h3, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+   }
+ 
+ *	{
+	 box-sizing: border-box;
+	 margin: 0;
+	 
+ }
+
+   
+/* Desktop Viewport:Style rules for header content */
+     
+header {
+    text-align: center;
+    color: #4f200d;
+    max-width: 100%; 
+	max-height: 1%; 
+	display: inline-block;
+	margin: 0;
+
+    }
+   
+h1 {
+	font-style: italic;
+    font-size: 3em;
+    font-family: Futura, Arial, sans-serif;
+	background-color: #f6f1e9;
+	text-shadow: 1px 1px #ff8400;
+	
+    }
+
+h3 {
+    font-style: italic;
+    font-size: 1.25em;
+    font-family: Futura, Arial, sans-serif;
+    }
+
+
+/* Style rules for body and images */
+
+body {
+    background-color: #f6f1e9;
+    }
+
+img { 
+    display: block;
+	max-width: 100%;
+	
+}
+
+video {
+	margin: 0 4%;
+	display: inline-block;
+	max-width: 100%;
+
+}
+
+/* Style rule for hero image 
+
+#hero {
+    clear: center;
+}
+*/
+/* Style rules for navigation area */
+
+nav {
+    background-color: #4f200d;
+/*	padding: 0%;
+	margin-bottom: 1%; */
+	max-width: 100%;
+	
+    }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+     }
+
+ nav li {
+   display: inline-block; 
+    font-size: 1.5em;
+    font-family: Garamond, Times, sans-serif;
+    font-weight: bold; 
+    }
+	
+nav li:first-child	{
+	border-top: none;
+}
+
+nav li a {
+    display: inline-block; 
+    color: #f6f1e9;
+    padding: 0.5em;
+	text-align: center;
+    text-decoration: none;
+	text-shadow: 1px 1px #ff8400;
+    }
+
+/* Style rules for main content */
+
+main {
+    padding: 2%;
+    font-family: Garamond, Times, sans-serif;
+   }
+
+main p {
+    font-size: 1.25em;
+    }
+
+main h3 {
+    padding-top: 2%;
+    }
+
+main ul {
+    list-style-type: circle;
+     }
+	 
+article	{
+	padding: 50px;
+	text-shadow: 5px 5px 5px #ff8400;
+}
+aside	{
+	text-align: left;
+}
+
+section	{
+	padding: 1%;
+	max-width: 100%;
+	
+}
+
+form{
+	width: auto;
+
+}
+
+.form-grid{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 20px;
+	
+}
+
+.btn	{
+	grid-column: 1 / span 2;
+	
+}
+/* Style rules for class and id selectors */
+
+.link {
+    color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    }
+
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+    }
+	
+ .grid1	{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 5px;
+/*	grid-column: 1 / span 2 */
+	
+}
+
+.frame	{
+	position: relative;
+	max-width: 300px; 
+	margin: 2% auto;  
+	
+}
+
+.frame:hover	{
+	box-shadow: 10px 10px 10px #4f200d
+}
+
+.pic-text{
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f6f1e9;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-family: Garamond, Times, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	
+}
+
+.round	{
+	border-radius: 8px;
+	
+}
+
+/* Show Mobile Class Only */
+
+.mobile{
+	display: block;
+	
+}
+
+/* Hide Desktop Class 
+
+.tablet-desktop	{
+	display: none;
+	
+}
+*/
+
+#contact {
+    text-align: center;
+}
+
+/* Style rules for footer content */
+
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #4f200d;
+    color: #f6f1e9;
+    padding: 1% 0;
+   }
+
+footer a {
+    color: #f6f1e9;
+    text-decoration: none;
+	text-shadow: 1px 1px #ff8400;
+	
+}
+
+ @media screen and (min-width: 1921px), print {
+    
+    body {
+        background: linear-gradient(#f6f1e9, #4f200d);
+        background-repeat: no-repeat;
+         }
+    
+    #container {
+        width: 1920px;
+        margin: 0 auto;
+         }
+        
+    main {
+        background-color: #f6f1e9;
+         }
+    
+    footer, footer a {
+        color: #4f200d;
+         }
+    
+        }
+
+#form	{
+	margin-top: 2%;
+	background-color: #f6f1e9;
+	padding: 2%;
+}		
+
+#form h3{
+	text-align: center;
+	
+}
+
+/* Style Rules for Form Elements */
+
+fieldset, input, select, textarea	{
+	margin-bottom: 2%;
+	
+}
+
+fieldset legend	{
+	font-weight: italic;
+	font-size: 1.25em;
+	
+}
+
+label	{
+	display: block;
+	padding-top: 3%;
+	
+}
+
+form #submit	{
+	margin: 0 auto;
+	border: none;
+	display: block;
+	padding: 2%;
+	background-color: #ff8400;
+	font-size: 1em;
+
+}
+		
+/* Style Rules for Mobile Viewport */
+
+/*header{
+	top: 0;
+	background-color: #f6f1e9;
+	height: 190px;
+	
+}
+
+header img{
+	margin: 0 auto;
+	
+}
+
+nav li{
+	border-top: 1px solid #f6f1e9;  /* For mobile viewpoint */
+
+
+/* Style Rules for Tablet Viewport */
+
+.grid	{
+	display: grid;
+	grid-template-rows: auto auto auto auto;
+	grid-gap: 10px;
+	
+}
+ 
+form{
+	width: 70%;
+	margin: 0 auto;
+	
+}

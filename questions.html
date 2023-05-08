@@ -1,0 +1,128 @@
+<!-- 
+	Subject: Web Design Final Project a
+	Date: 04/23/2023
+	Title: Using Weight Machines to Build Muscle
+ -->
+ 
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Using Weight Machines to Build Muscle: Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel ="stylesheet" href="cssfinalp/finalstyles.css">
+<!--    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Playfair+Display:900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+	-->
+</head>
+
+<body>
+	<div id="container">
+	<header> 
+	<h1>Using Weight Machines to Build Muscle</h1>  
+	</header>
+	<div>
+    <img src="images/panpic.jpg" alt="gym equipment">
+	</div>
+	
+	<!-- Tablet, Desktop Nav -->
+	<nav class="tablet-desktop">
+		<ul>
+			<li><a href="weighttraining.html">Weight Training</a></li>
+            <li><a href="legmuscles.html">Leg Muscles</a></li> 
+            <li><a href="backmuscles.html">Back Muscles</a></li>
+            <li><a href="chestmuscles.html">Chest Muscles</a></li>
+            <li><a href="armmuscles.html">Arm Muscles</a></li>
+			<li><a href="shouldermuscles.html">Shoulder Muscles</a></li>
+			<li><a href="abmuscles.html">Abdominal Muscles</a></li>
+			<li><a href="questions.html">Questions</a></li>
+        </ul>
+			
+	</nav>
+	 <!-- Mobile Nav 
+	 <nav class="mobile-nav">
+	 <div id="menu-links">
+	 		<li><a href="weighttraining.html">Contact</a></li>
+            <li><a href="legmuscles.html">Home</a></li> 
+            <li><a href="backmuscles.html">Clubs</a></li>
+            <li><a href="chestmuscles.html">Events</a></li>
+            <li><a href="armmuscles.html">Contact</a></li>
+			<li><a href="shouldermuscles.html">Contact</a></li>
+			<li><a href="abmuscles.html">Contact</a></li>
+			<li><a href="questions.html">Contact</a></li>
+	 </div>
+	 <a class="menu-icon" onclick="hamburger()">
+	 <div>&9776;</div>
+	 </a>
+	 </nav>
+	-->
+	<!-- Use the main area to add the main content of the webpage -->
+<main>
+	
+	<h3>Questions or Concerns About using Weight Machines?</h3>
+		<p>My hope is for every able bodied person to utilize weight training as a tool to help them gain strength, grow more muscles, and maintain good muscle mass.  Maintaining good muscle mass is extremely important for everyone.  It aids the organs with body functions, and makes us less vunerable to injuries.  If you are the average person, eating macro balanced meals, weight training will not make swollen, just stronger.  Please use the form below to inquire about using machines for weight training.</p>
+	
+	<div id="forms">
+		<h3>Questions?</h3>
+		<form class="form-grid">
+		<!-- Questions Form  -->
+		<fieldset>
+		<legend>Reader Inquiry</legend>
+		<label for="Name">Name:</label>
+		<input type="text" name="Name" id="Name" required>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required>
+		
+		<label for="questions">Questions?</label>
+		<textarea id="questions" name="questions" rows="7" cols="40"></textarea>
+		</fieldset>
+		
+		<fieldset>
+		<legend>Additional Information</legend>
+		<p>I would like more information about:</p>
+		
+		<label for="weightmachines"><input type="checkbox" name="interest" id="weightmachines" value="Weight Machines">Weight Machines</label>
+		
+		<label for="lmass"><input type="checkbox" name="interest" id="lmass" value="Leg Muscles">Leg Muscles</label>
+		
+		<label for="smass"><input type="checkbox" name="interest" id="smass" value="Shoulder Muscles">Shoulder Muscles</label>
+		
+		<label for="bmass"><input type="checkbox" name="interest" id="bmass" value="Back Muscles">Back Muscles</label>
+		
+		<label for="cmass"><input type="checkbox" name="interest" id="cmass" value="Chest Muscles">Chest Muscles</label>
+		
+		<label for="amass"><input type="checkbox" name="interest" id="amass" value="Arm Muscles">Arm Muscles</label>
+		
+		<label for="abmass"><input type="checkbox" name="interest" id="abmass" value="Abdominal Muscles">Abdominal Muscles</label>
+		</fieldset>
+		
+		<fieldset>
+		<legend>Referral Source</legend>
+		<label for="reference">How did you find us?</label>
+		<select name="reference" id="reference">
+		
+		<option value="friend">Friend recommended</option>
+		<option value="yt">Youtube</option>
+		<option value="lupweighttraining">Lookup weight training</option>
+		<option value="new">Just curious</option>
+		</select>
+		</fieldset>
+		
+		<input type="send" id="send" value="Send" class="btn">
+		
+		</form>
+	</div>
+</main>
+	
+	<footer>
+		<p>&copy; Copyright 2023. All Rights Reserved.</p>
+		<p><a href="mailto:scoleman146@student.ccc.edu">scoleman146@student.ccc.edu</a></p>
+	</footer>
+	<script src="finalscript.js"></script>
+	<div>
+</body>
+</html>

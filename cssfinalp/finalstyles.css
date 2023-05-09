@@ -331,7 +331,7 @@ nav li{
 .grid	{
 	display: grid;
 	grid-template-rows: auto auto auto auto;
-	grid-gap: 10px;
+	grid-gap: 45px;
 	
 }
  

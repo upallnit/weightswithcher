@@ -90,7 +90,7 @@ nav ul {
 
  nav li {
    display: inline-block; 
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: Garamond, Times, sans-serif;
     font-weight: bold; 
     }
@@ -102,7 +102,7 @@ nav li:first-child	{
 nav li a {
     display: inline-block; 
     color: #f6f1e9;
-    padding: 0.5em;
+    padding: 0.5em 0.1em;
 	text-align: center;
     text-decoration: none;
 	text-shadow: 1px 1px #ff8400;

@@ -102,7 +102,7 @@ nav li:first-child	{
 nav li a {
     display: inline-block; 
     color: #f6f1e9;
-    padding: 0.5em 0.1em;
+    padding: 0.5em 0.3em;
 	text-align: center;
     text-decoration: none;
 	text-shadow: 1px 1px #ff8400;
